@@ -1,0 +1,881 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.dropdown-hover:hover .dropdown-menu {
+      display: block;
+      margin-top: 0;
+    }
+    .btn i {
+      margin-right: 5px;
+    }
+    .dropdown-hover {
+    position: relative;
+  }
+ 
+  
+
+  .nav-link {
+  position: relative;
+  padding-bottom: 5px;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #000; /* চাইলে color বদলাও */
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+.carousel-item img {
+  height: 400px;
+  object-fit: cover;
+}
+
+
+
+  .dropdown-hover .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: white;
+    z-index: 1000;
+    border-radius: 0;
+  }
+
+  .dropdown-hover:hover .dropdown-menu {
+    display: block;
+  }
+
+  .mega-menu {
+    min-width: 100%;
+    }
+
+    .mega-menu .card {
+    width: 100px;
+    flex: 1;
+    }
+
+    .card-img-overlay small {
+    background: rgba(0,0,0,0.5);
+    padding: 2px 5px;
+    border-radius: 4px;
+    }
+    .brand-menu img {
+        max-height: 60px;
+        object-fit: contain;
+        }
+
+  
+        
+
+.vision-section {
+            padding: 5rem 0; /* Add top and bottom padding */
+            text-align: center;
+        }
+        .vision-title {
+            font-size: 3.5rem; /* Larger font size for the main title */
+            font-weight: bold;
+            color: #b8860b; /* Gold color for the title */
+            margin-bottom: 1rem;
+        }
+        .tagline {
+            font-size: 1.5rem; /* Larger font size for the tagline */
+            color: #343a40; /* Darker gray for better readability */
+            margin-bottom: 2rem;
+        }
+        .description-text {
+            font-size: 1rem;
+            color: #6c757d; /* Medium gray for description */
+            max-width: 700px; /* Limit width for better readability */
+            margin: 0 auto 2rem auto; /* Center and add bottom margin */
+        }
+        .description-text a {
+            color: #b8860b; /* Gold color for links in description */
+            text-decoration: underline;
+        }
+        .btn-outline-dark-custom {
+            border-color: #343a40; /* Dark border */
+            color: #343a40; /* Dark text */
+            border-radius: 0.25rem; /* Standard Bootstrap border-radius */
+            padding: 0.75rem 2.5rem; /* More padding for a larger button */
+            font-weight: 500; /* Slightly bolder text */
+            margin: 0 0.5rem; /* Space between buttons */
+        }
+        .btn-outline-dark-custom:hover {
+            background-color: #343a40;
+            color: #fff;
+        }
+        .section-heading-dark {
+            font-size: 2.5rem; /* Large font size for "Best Selling Glasses" */
+            font-weight: bold;
+            color: #212529; /* Dark color */
+            margin-top: 4rem; /* Space above this heading */
+            margin-bottom: 2rem;
+        }
+
+
+        .best-selling {
+  padding: 40px 20px;
+  background: #fff;
+  text-align: center;
+}
+.best-selling h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+.item {
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 10px;
+  position: relative;
+}
+.item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: red;
+  color: white;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 3px;
+}
+.price {
+  font-weight: bold;
+  margin-top: 10px;
+}
+.price s {
+  color: gray;
+  font-weight: normal;
+  margin-left: 5px;
+}
+.colors {
+  margin-top: 10px;
+}
+.color-dot {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin: 0 3px;
+}
+.see-all {
+  background: black;
+  color: white;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+ .owl-carousel .item {
+    max-width: 180px;
+    margin: 0 auto;
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .owl-carousel .item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .price {
+    font-size: 14px;
+    margin-top: 8px;
+  }
+
+  .colors .color-dot {
+    width: 12px;
+    height: 12px;
+  }
+
+  .see-all {
+    height: 180px;
+  }
+      .custom-card {
+            border-radius: 10px; 
+            overflow: hidden; 
+            margin-bottom: 20px; 
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        
+        .card-1 {
+            background-color: #f5eddd; 
+            color: #333;
+            position: relative; 
+            max-height: 400px; 
+            
+        }
+        .card-1 .card-img-overlay {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end; 
+            align-items: center; 
+            text-align: center;
+            padding-bottom: 2rem; 
+            background: linear-gradient(to top, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0) 50%); 
+        }
+        .card-1 .card-title {
+            font-size: 2rem; 
+            font-weight: bold;
+            color: white; 
+            line-height: 1.1;
+            margin-bottom: 0.5rem;
+        }
+        .card-1 .card-text {
+            font-size: 1rem;
+            color: #f0f0f0; 
+            margin-bottom: 1.5rem;
+        }
+        .card-1 .shop-btn {
+            background-color: #e0ac68; 
+            border-color: #e0ac68;
+            color: white;
+            padding: 0.8rem 2.5rem;
+            font-size: 1.1rem;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .card-1 .shop-btn:hover {
+            background-color: #c9985a; 
+            border-color: #c9985a;
+        }
+        .discount-tag {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background-color: #ffc107;
+            color: #333;
+            border-radius: 50%; 
+            width: 120px; 
+            height: 120px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            text-align: center;
+            line-height: 1.2;
+            padding: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+            z-index: 10; 
+        }
+        .discount-tag .up-to {
+            font-size: 0.9rem;
+            margin-bottom: -5px; 
+        }
+        .discount-tag .percentage {
+            font-size: 2.5rem;
+        }
+        .discount-tag .off {
+            font-size: 1.1rem;
+            margin-top: -5px; 
+        }
+
+ .card-1 .card-img {
+    transition: transform 0.4s ease;
+    object-fit: cover;
+    height: 100%; 
+    width: 100%;
+}
+
+.card-1:hover .card-img {
+    transform: scale(1.1); 
+}
+
+
+        .card-custom {
+            border: none !important;
+            text-align: center;
+            overflow: hidden; 
+            box-shadow: none;
+        }
+        
+        .card-body-custom {
+            padding: 1.5rem 1rem;
+        }
+        .card-title-custom {
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+        .card-text-custom {
+            font-size: 1rem;
+            color: #555;
+            margin-bottom: 1.5rem;
+        }
+        .btn-custom {
+            border: 1px solid #000;
+            color: #000;
+            background-color: transparent;
+            padding: 0.75rem 2rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        .btn-custom:hover {
+            background-color: #000;
+            color: #fff;
+        }
+
+.card-img-top-custom {
+   height: 400px;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+
+.card-img-top-custom:hover {
+    transform: scale(1.03); 
+}
+
+.style-section {
+            text-align: center;
+            background-color: #fff; 
+        }
+        .style-section h2 {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 3rem;
+            color: #333; 
+        }
+        .style-item {
+            text-align: center;
+            margin-bottom: 2rem;
+            cursor: pointer;
+        }
+        .style-item img {
+            width: 150px; 
+            height: 150px; 
+            border-radius: 50%; 
+            object-fit: cover;
+            border: 1px solid #e0e0e0; 
+            padding: 5px; 
+            background-color: #f8f8f8; 
+            transition: transform 0.3s ease;
+        }
+        .style-item img:hover {
+            transform: translateY(-5px);
+        }
+      
+ .style-item a { 
+            display: block; 
+            margin-top: 1rem;
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #333; 
+            text-decoration: none;
+            transition: color 0.3s ease; 
+        }
+        .style-item a:hover {
+            color: #da9900; 
+        }
+       
+.eyeglass-section {
+            text-align: center;
+            padding: 5rem 0;
+            background-color: #f8f8f8;
+        }
+        .eyeglass-section h2 {
+            font-size: 1.5rem; 
+            font-weight: bold;
+            color: #000000; 
+            margin-bottom: 2.5rem;
+        }
+        .eyeglass-section p {
+            font-size: 0.rem; 
+            line-height: 1.8; 
+            color: #000000; 
+            max-width: 800px; 
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .eyeglass-section p a {
+            color: #000000; 
+            text-decoration: underline;
+            transition: color 0.3s ease; 
+        }
+        .eyeglass-section p a:hover {
+            color: #da9900; 
+            text-decoration: underline;
+        }
+
+
+.testimonial-card {
+      background-color: #f5f5f5;
+      border-radius: 10px;
+      padding: 20px;
+      max-height: 250px;
+      max-width: 300px;
+    }
+    .testimonial-img {
+      width: 60px;
+      height: 60px;
+      object-fit: cover;
+    }
+
+
+
+    .brand-logo {
+  
+  filter: grayscale(100%);
+  transition: filter 0.3s ease-in-out;
+  max-height: 40px; 
+  opacity: 0.7; 
+}
+
+.brand-logo:hover {
+ 
+  filter: grayscale(0%);
+  opacity: 1; 
+}
+
+
+.brand-logo {
+    min-width: 80px;
+}
+
+
+.social-section-content {
+    background-color: #ffffff; 
+    color: #000000;
+    padding: 3rem 1rem;
+}
+
+.eyebuydirect-heading {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin-bottom: 1.5rem !important; 
+    font-family: Arial, sans-serif;
+    letter-spacing: -0.05rem; 
+}
+
+.social-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    max-width: 300px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-bottom: 2rem !important; 
+    color: #333333; 
+}
+
+.shop-button {
+    border: 2px solid #000000; 
+    color: #000000; 
+    font-weight: bold;
+    padding: 0.8rem 2.5rem; 
+    border-radius: 0 !important; 
+    font-size: 1rem;
+    transition: all 0.3s ease; 
+}
+
+.shop-button:hover {
+    background-color: #000000; 
+    color: #ffffff; 
+}
+
+.follow-us-heading {
+    font-size: 1.1rem; 
+    margin-top: 3rem !important; 
+    margin-bottom: 1rem !important; 
+    color: #000000;
+}
+
+.social-icons-container .text-dark {
+    color: #000000 !important; 
+    transition: color 0.3s ease; 
+}
+
+.social-icons-container .text-dark:hover {
+    color: #666666 !important; 
+}
+
+.social-icons-container .fa-2x {
+    font-size: 2rem; 
+}
+
+
+.image-hover-container {
+  position: relative;
+  overflow: hidden; 
+  border-radius: 0.375rem; 
+}
+
+.image-hover-container img {
+  display: block; 
+  width: 100%;
+  height: auto;
+  transition: transform 0.5s ease; 
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0; 
+  transition: opacity 0.5s ease;
+  background-color: rgba(0, 0, 0, 0.3); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-hover-container:hover .overlay {
+  opacity: 1;
+}
+
+.image-hover-container:hover img {
+  transform: scale(1.05); 
+}
+
+.text {
+  color: white;
+  font-size: 1.5rem; 
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.4); 
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.25rem; 
+  backdrop-filter: blur(2px); 
+  -webkit-backdrop-filter: blur(2px);
+}
+.image-caption {
+  position: absolute;
+  bottom: 15px; 
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 0.9rem; 
+  font-weight: bold;
+  opacity: 1; 
+  transition: opacity 0.3s ease;
+  z-index: 2; 
+}
+
+.image-hover-container:hover .image-caption {
+  opacity: 0;
+}
+
+.image-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.375rem;
+}
+
+.image-wrapper img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: transform 0.5s ease; 
+}
+
+
+.image-hover-effect .overlay-jam {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0; 
+  transition: opacity 0.5s ease;
+  background-color: rgba(0, 0, 0, 0.4); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.375rem; 
+}
+
+.image-hover-effect:hover .overlay-jam {
+  opacity: 1; 
+}
+
+.image-hover-effect:hover img {
+  transform: scale(1.05);
+}
+
+.text-jam {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.4); 
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.25rem;
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+}
+
+.image-caption-jam {
+  position: absolute;
+  bottom: 10px; 
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 0.8rem;
+  font-weight: bold;
+  opacity: 1;
+  z-index: 2;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.7); 
+}
+
+
+.glasses-questions-heading {
+  font-size: 2.5rem; 
+  color: #333; 
+  margin-top: 2rem; 
+}
+
+.max-width-para {
+  max-width: 700px; 
+  margin-left: auto; 
+  margin-right: auto; 
+  color: #555;
+}
+
+.icon-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+.icon-class {
+  width: 80px; 
+  height: 80px; 
+  border: 1px solid #ccc; 
+  border-radius: 50%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem; 
+  background-size: 50%; 
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: border-color 0.3s ease, background-color 0.3s ease; 
+}
+
+
+.icon-prescription {
+  background-image: url('prescription-icon.svg'); 
+}
+.icon-pupillary {
+  background-image: url('pupillary-icon.svg'); 
+}
+.icon-frames {
+  background-image: url('frames-icon.svg'); 
+}
+.icon-buy-online {
+  background-image: url('buy-online-icon.svg'); 
+}
+
+.icon-box a {
+    color: #333 !important; 
+    font-size: 1rem; 
+    line-height: 1.4; 
+}
+
+.icon-box:hover .icon-class {
+  border-color: #000; 
+  background-color: #f8f9fa; 
+}
+
+.icon-box:hover a {
+    color: #000 !important; 
+    text-decoration: underline !important; 
+}
+
+.exclusive-club-section {
+            background-color: #cd9357; 
+            padding: 30px 0;
+            color: #fff;
+            text-align: center;
+        }
+        .exclusive-club-section h2 {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .exclusive-club-section p {
+            font-size: 1.1rem;
+            margin-bottom: 40px;
+        }
+        .exclusive-club-section .form-control {
+            border-radius: 0;
+            height: 50px;
+            padding-left: 45px; 
+        }
+        .exclusive-club-section .input-group-text {
+            background-color: #fff;
+            border-radius: 0;
+            border-right: none;
+            height: 50px;
+            padding-right: 0;
+        }
+        .exclusive-club-section .input-group-text svg {
+            fill: #6c757d; 
+        }
+        .exclusive-club-section .btn {
+            background-color: #fff;
+            border: none;
+            border-radius: 0;
+            color: #333;
+            font-size: 1.2rem;
+            padding: 10px 20px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .exclusive-club-section .disclaimer {
+            font-size: 0.85rem;
+            margin-top: 40px;
+            line-height: 1.5;
+            color: rgba(255, 255, 255, 0.8); 
+        }
+        .exclusive-club-section .disclaimer a {
+            color: #fff;
+            text-decoration: underline;
+        }
+       
+        .input-icon-container {
+            position: relative;
+            width: 100%;
+        }
+        .input-icon {
+            position: absolute;
+            left: 15px; 
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 10;
+        }
+
+
+
+.footer-section {
+    background-color: #2c2c2c; 
+    color: #a0a0a0; 
+    font-size: 0.9rem; 
+}
+
+.footer-section h5 {
+    color: #ffffff; 
+    font-size: 1rem; 
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.footer-section ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px; 
+}
+
+.footer-section ul li a {
+    color: #a0a0a0; 
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+.footer-section ul li a:hover {
+    color: #ffffff;
+}
+
+.social-icons a {
+    color: #ffffff; 
+    font-size: 1.5rem;
+    margin-right: 15px;
+    transition: color 0.2s ease-in-out;
+}
+
+.social-icons a:hover {
+    color: #a0a0a0; 
+}
+
+.reseller-ratings,
+.customer-certified {
+    max-width: 120px; 
+    height: auto;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.footer-section .small {
+    font-size: 0.75rem; 
+    color: #707070; 
+}
+
+
+.region-select .active-region {
+    color: #ffffff; 
+    font-weight: bold;
+}
+.region-select span {
+    margin-right: 5px; 
+}
+
+
+.footer-divider {
+    border-top: 1px solid #444444; /* Darker gray line */
+}
+
+
+.legal-links .list-inline-item {
+    margin-right: 15px; 
+    line-height: 1.5; 
+}
+
+.legal-links .list-inline-item:last-child {
+    margin-right: 0;
+}
+
+.legal-links a {
+    color: #a0a0a0;
+    text-decoration: none;
+    font-size: 0.8rem; 
+    white-space: nowrap; 
+}
+
+.legal-links a:hover {
+    color: #ffffff;
+}
+
+.privacy-icon {
+    width: 16px; 
+    height: 16px;
+    vertical-align: middle;
+}
