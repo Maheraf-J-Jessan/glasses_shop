@@ -249,91 +249,38 @@
   </div>
 </nav>
 <!-- Carousel -->
-<div class="position-relative">
-  <div id="eyewearCarousel" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#eyewearCarousel" data-bs-slide-to="0" class="active"></button>
-      <button type="button" data-bs-target="#eyewearCarousel" data-bs-slide-to="1"></button>
-      <button type="button" data-bs-target="#eyewearCarousel" data-bs-slide-to="2"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="assets/img/banner2.jpg" class="d-block w-100" alt="Banner 1">
-      </div>
-      <div class="carousel-item">
-        <img src="assets/img/banner2.jpg" class="d-block w-100" alt="Banner 2">
-      </div>
-      <div class="carousel-item">
-        <img src="assets/img/banner.jfif" class="d-block w-100" alt="Banner 3">
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#eyewearCarousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#eyewearCarousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
+ <div class="bg-gray-100 font-inter">
+    <div class="carousel-container">
+        <input type="radio" name="carousel" id="slide1" checked>
+        <input type="radio" name="carousel" id="slide2">
+        <input type="radio" name="carousel" id="slide3">
+        <input type="radio" name="carousel" id="slide4">
 
- 
-
-
-<div class="position-absolute w-100" style="bottom: 0; left: 0; transform: translateY(-50%); z-index: 10;">
-    <div class="container-fluid py-2">
-        <div class="row justify-content-center">
-            <div class="col-12 col-md-10 col-lg-8">
-                <div class="d-flex flex-wrap align-items-center justify-content-around p-2 rounded-pill shadow-sm bg-white">
-
-                    <div class="d-flex align-items-center mx-2 my-1"
-                         data-bs-toggle="tooltip"
-                         data-bs-placement="top"
-                         title="With 14-Day Free Returns, you can get a one-time replacement or refund within two weeks of receiving your order — no questions asked!">
-                        <i class="bi bi-arrow-repeat me-2 text-warning"></i>
-                        <span>14-Day Free Returns</span>
-                    </div>
-
-                    <div class="vr my-1 d-none d-md-block"></div>
-
-                    <div class="d-flex align-items-center mx-2 my-1"
-                         data-bs-toggle="tooltip"
-                         data-bs-placement="top"
-                         title="Our customer service team is available to answer all your eyeewar questions-24 hours a day . 7 days a week via phone, email, or live chat on our contact page">
-                        <i class="bi bi-headset me-2 text-warning"></i>
-                        <span>24/7 Customer Service</span>
-                    </div>
-
-                    <div class="vr my-1 d-none d-md-block"></div>
-
-                    <div class="d-flex align-items-center mx-2 my-1"
-                         data-bs-toggle="tooltip"
-                         data-bs-placement="top"
-                         title="Cover the cost of prescription eyeewar with our out-of-ntwork vision insurance or use your Flexible Savings Account (FSA) or Health Savings Account (HSA) Learn More Vision Insurance">
-                        <i class="bi bi-shield-check me-2 text-warning"></i>
-                        <span>Vision Insurance</span>
-                    </div>
-
-                    <div class="vr my-1 d-none d-md-block"></div>
-
-                    <div class="d-flex align-items-center mx-2 my-1">
-                        <span class="fw-bold me-1">sitejabber</span>
-                        <div class="d-flex text-warning me-1">
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-half"></i>
-                        </div>
-                        <span>216k+ Reviews</span>
-                    </div>
-
-                </div>
+        <div class="carousel-slides">
+            <div class="carousel-slide">
+                <img src="assets/img/banner.jfif" >
+            </div>
+            <div class="carousel-slide">
+                <img src="assets/img/banner.jfif" >
+            </div>
+            <div class="carousel-slide">
+                <img src="assets/img/banner2.jpg" >
+            </div>
+            <div class="carousel-slide">
+                <img src="assets/img/banner.jfif" >
             </div>
         </div>
+
+        <div class="carousel-navigation">
+            <label for="slide1"></label>
+            <label for="slide2"></label>
+            <label for="slide3"></label>
+            <label for="slide4"></label>
+        </div>
     </div>
-</div>
-</div>
+ </div>
+
+
 <section class="vision-section">
     <div class="container">
         <h1 class="vision-title">Every Vision of You</h1>
@@ -357,7 +304,9 @@
     <div class="item">
       <div class="badge">40% OFF</div>
       <img src="assets/img/owl3.jfif" alt="Amity">
-      <div class="price">Amity $20 <s>$33</s></div>
+     <a href="/product.html" class="price text-dark text-decoration-none">
+        Amity $20 <s class="text-muted">$33</s>
+      </a>
       <div class="colors">
         <span class="color-dot" style="background: green;"></span>
         <span class="color-dot" style="background: lightgray;"></span>
@@ -367,95 +316,128 @@
         <span class="color-dot" style="background: beige;"></span>
       </div>
     </div>
-    <div class="item">
-      <img src="assets/img/owl2.jfif" alt="Romy">
-      <div class="price">Romy $59</div>
+     <div class="item">
+      <div class="badge">40% OFF</div>
+      <img src="assets/img/owl3.jfif" alt="Amity">
+     <a href="/product.html" class="price text-dark text-decoration-none">
+        Amity $20 <s class="text-muted">$33</s>
+      </a>
       <div class="colors">
-        <span class="color-dot" style="background: black;"></span>
-        <span class="color-dot" style="background: brown;"></span>
-        <span class="color-dot" style="background: white;"></span>
+        <span class="color-dot" style="background: green;"></span>
+        <span class="color-dot" style="background: lightgray;"></span>
+        <span class="color-dot" style="background: pink;"></span>
         <span class="color-dot" style="background: red;"></span>
-        <span class="color-dot" style="background: teal;"></span>
+        <span class="color-dot" style="background: navy;"></span>
+        <span class="color-dot" style="background: beige;"></span>
       </div>
     </div>
      <div class="item">
-      <img src="assets/img/owl2.jfif" alt="Romy">
-      <div class="price">Romy $59</div>
+      <div class="badge">40% OFF</div>
+      <img src="assets/img/owl3.jfif" alt="Amity">
+     <a href="/product.html" class="price text-dark text-decoration-none">
+        Amity $20 <s class="text-muted">$33</s>
+      </a>
       <div class="colors">
-        <span class="color-dot" style="background: black;"></span>
-        <span class="color-dot" style="background: brown;"></span>
-        <span class="color-dot" style="background: white;"></span>
+        <span class="color-dot" style="background: green;"></span>
+        <span class="color-dot" style="background: lightgray;"></span>
+        <span class="color-dot" style="background: pink;"></span>
         <span class="color-dot" style="background: red;"></span>
-        <span class="color-dot" style="background: teal;"></span>
+        <span class="color-dot" style="background: navy;"></span>
+        <span class="color-dot" style="background: beige;"></span>
       </div>
     </div>
      <div class="item">
-      <img src="assets/img/owl2.jfif" alt="Romy">
-      <div class="price">Romy $59</div>
+      <div class="badge">40% OFF</div>
+      <img src="assets/img/owl3.jfif" alt="Amity">
+     <a href="/product.html" class="price text-dark text-decoration-none">
+        Amity $20 <s class="text-muted">$33</s>
+      </a>
       <div class="colors">
-        <span class="color-dot" style="background: black;"></span>
-        <span class="color-dot" style="background: brown;"></span>
-        <span class="color-dot" style="background: white;"></span>
+        <span class="color-dot" style="background: green;"></span>
+        <span class="color-dot" style="background: lightgray;"></span>
+        <span class="color-dot" style="background: pink;"></span>
         <span class="color-dot" style="background: red;"></span>
-        <span class="color-dot" style="background: teal;"></span>
+        <span class="color-dot" style="background: navy;"></span>
+        <span class="color-dot" style="background: beige;"></span>
       </div>
     </div>
      <div class="item">
-      <img src="assets/img/owl2.jfif" alt="Romy">
-      <div class="price">Romy $59</div>
+      <div class="badge">40% OFF</div>
+      <img src="assets/img/owl3.jfif" alt="Amity">
+     <a href="/product.html" class="price text-dark text-decoration-none">
+        Amity $20 <s class="text-muted">$33</s>
+      </a>
       <div class="colors">
-        <span class="color-dot" style="background: black;"></span>
-        <span class="color-dot" style="background: brown;"></span>
-        <span class="color-dot" style="background: white;"></span>
+        <span class="color-dot" style="background: green;"></span>
+        <span class="color-dot" style="background: lightgray;"></span>
+        <span class="color-dot" style="background: pink;"></span>
         <span class="color-dot" style="background: red;"></span>
-        <span class="color-dot" style="background: teal;"></span>
+        <span class="color-dot" style="background: navy;"></span>
+        <span class="color-dot" style="background: beige;"></span>
       </div>
     </div>
-    <div class="item">
+     <div class="item">
       <div class="badge">40% OFF</div>
-      <img src="assets/img/owl1.jpg" alt="Coexist">
-      <div class="price">Coexist $16 <s>$26</s></div>
+      <img src="assets/img/owl3.jfif" alt="Amity">
+     <a href="/product.html" class="price text-dark text-decoration-none">
+        Amity $20 <s class="text-muted">$33</s>
+      </a>
       <div class="colors">
-        <span class="color-dot" style="background: black;"></span>
-        <span class="color-dot" style="background: white;"></span>
-        <span class="color-dot" style="background: sienna;"></span>
-        <span class="color-dot" style="background: brown;"></span>
+        <span class="color-dot" style="background: green;"></span>
+        <span class="color-dot" style="background: lightgray;"></span>
+        <span class="color-dot" style="background: pink;"></span>
+        <span class="color-dot" style="background: red;"></span>
+        <span class="color-dot" style="background: navy;"></span>
+        <span class="color-dot" style="background: beige;"></span>
       </div>
     </div>
-    <div class="item">
+     <div class="item">
       <div class="badge">40% OFF</div>
-      <img src="assets/img/owl4.jfif" alt="Coexist">
-      <div class="price">Coexist $16 <s>$26</s></div>
+      <img src="assets/img/owl3.jfif" alt="Amity">
+     <a href="/product.html" class="price text-dark text-decoration-none">
+        Amity $20 <s class="text-muted">$33</s>
+      </a>
       <div class="colors">
-        <span class="color-dot" style="background: black;"></span>
-        <span class="color-dot" style="background: white;"></span>
-        <span class="color-dot" style="background: sienna;"></span>
-        <span class="color-dot" style="background: brown;"></span>
+        <span class="color-dot" style="background: green;"></span>
+        <span class="color-dot" style="background: lightgray;"></span>
+        <span class="color-dot" style="background: pink;"></span>
+        <span class="color-dot" style="background: red;"></span>
+        <span class="color-dot" style="background: navy;"></span>
+        <span class="color-dot" style="background: beige;"></span>
       </div>
     </div>
-    <div class="item">
+     <div class="item">
       <div class="badge">40% OFF</div>
-      <img src="assets/img/owl4.jfif" alt="Coexist">
-      <div class="price">Coexist $16 <s>$26</s></div>
+      <img src="assets/img/owl3.jfif" alt="Amity">
+     <a href="/product.html" class="price text-dark text-decoration-none">
+        Amity $20 <s class="text-muted">$33</s>
+      </a>
       <div class="colors">
-        <span class="color-dot" style="background: black;"></span>
-        <span class="color-dot" style="background: white;"></span>
-        <span class="color-dot" style="background: sienna;"></span>
-        <span class="color-dot" style="background: brown;"></span>
+        <span class="color-dot" style="background: green;"></span>
+        <span class="color-dot" style="background: lightgray;"></span>
+        <span class="color-dot" style="background: pink;"></span>
+        <span class="color-dot" style="background: red;"></span>
+        <span class="color-dot" style="background: navy;"></span>
+        <span class="color-dot" style="background: beige;"></span>
       </div>
     </div>
-    <div class="item">
+     <div class="item">
       <div class="badge">40% OFF</div>
-      <img src="assets/img/owl4.jfif" alt="Coexist">
-      <div class="price">Coexist $16 <s>$26</s></div>
+      <img src="assets/img/owl3.jfif" alt="Amity">
+     <a href="/product.html" class="price text-dark text-decoration-none">
+        Amity $20 <s class="text-muted">$33</s>
+      </a>
       <div class="colors">
-        <span class="color-dot" style="background: black;"></span>
-        <span class="color-dot" style="background: white;"></span>
-        <span class="color-dot" style="background: sienna;"></span>
-        <span class="color-dot" style="background: brown;"></span>
+        <span class="color-dot" style="background: green;"></span>
+        <span class="color-dot" style="background: lightgray;"></span>
+        <span class="color-dot" style="background: pink;"></span>
+        <span class="color-dot" style="background: red;"></span>
+        <span class="color-dot" style="background: navy;"></span>
+        <span class="color-dot" style="background: beige;"></span>
       </div>
     </div>
-    <a href="#" class="item see-all bg-dark text-white d-flex align-items-center justify-content-center" style="text-decoration: none;">
+
+    <a href="/product_category.html" class="item see-all bg-dark text-white d-flex align-items-center justify-content-center" style="text-decoration: none;">
        See all
     </a>
 
